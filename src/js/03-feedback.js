@@ -30,8 +30,8 @@ const parseStorage = JSON.parse(storage);
 
 const fillForm = () => {
   if (parseStorage !== null) {
-    input.value = parseStorage.email;
-    textarea.value = parseStorage.message;
+    input.value = parseStorage.input;
+    textarea.value = parseStorage.textarea;
   }
 };
 fillForm();
